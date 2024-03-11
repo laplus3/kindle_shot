@@ -31,4 +31,4 @@ def capture_swipe_and_save(num_pages, direction, save_location="Screenshots", fi
         time.sleep(swipe_duration)
 
 # 218ページ分のスクリーンショットを指定された方向にスワイプして取得（例: 右にスワイプ）
-capture_swipe_and_save(218, direction="left", save_location="新版　電話対応＆敬語・話し方のビジネスマナー", file_prefix="ページ", swipe_duration=0.1)
+capture_swipe_and_save(0, direction="left", save_location="", file_prefix="ページ", swipe_duration=0.1)
